@@ -1,0 +1,204 @@
+body { background-color: #f78259;}
+
+.box {
+      position: relative;
+      margin: auto;
+      display: block;
+      border: solid 5px red;
+      margin-top: 8%;
+      width: 600px;
+      height: 420px;
+    background: none;
+    }
+
+.head { position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: #f6eec9;
+    border-radius: 55%;
+    }
+
+.head-copy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:#f6eec9;
+    border-radius: 55%;
+    z-index: 2;
+}
+
+.left-ear {
+    position: absolute;
+  width: 40%;
+  height: 70%;
+  left: -8%;
+  top: -3%;
+  background: #ba6b57;
+  border-radius: 40%;
+  z-index: 1;
+}
+
+.right-ear {
+    position: absolute;
+  width: 40%;
+  height: 70%;
+  right: -8%;
+  top: -3%;
+  background: #ba6b57 ;
+  border-radius: 40%;
+  z-index: 1;
+}
+
+.ear-inner {
+    position: absolute;
+    border-radius: 90%;
+    width: 50%;
+    height: 30%;
+    top: 10%;
+    left: 23%;
+    background: #5f6769;
+}
+
+.eye-right {
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 26%;
+    top: 25%;
+    right: 19%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.eye-left {
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 26%;
+    top: 25%;
+    left: 19%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.pupil {
+    position: absolute;
+  width: 55%;
+  height: 60%;
+  top: 35%;
+  left: 24%;
+  border-radius: 60%;
+  background: #27354A;
+}
+
+.nose {
+    position: absolute;
+    background: #3c4245;
+    width: 21%;
+    height: 15.5%;
+    left: 39.5%;
+    top: 48%;
+    border-radius: 80px;
+    z-index: 4;
+}
+
+.nose-hole-right {
+    position: absolute;
+    background: black;
+    width: 15%;
+    height: 17.5%;
+    left: 33.5%;
+    top: 60%;
+    border-radius: 80px;
+    z-index: 4;
+}
+
+.nose-hole-left {
+    position: absolute;
+    background: black;
+    width: 15%;
+    height: 17.5%;
+    right: 33.5%;
+    top: 60%;
+    border-radius: 80px;
+    z-index: 4;
+}
+
+.mouth {
+    position: absolute;
+    background: #bd574e;
+    width: 19%;
+    height: 3%;
+    left: 41%;
+    top: 72%;
+    border-radius: 120px;
+    z-index: 4;
+}
+
+.mouth-bottom {
+    position: absolute;
+    background: #bd574e;
+    width: 13.5%;
+    height: 2%;
+    left: 43.5%;
+    top: 74%;
+    border-radius: 120px;
+    z-index: 5;
+}
+
+.hair-left {
+    position: absolute;
+    top: -4.5%;
+    left: 18%;
+    width: 40%;
+    height: 20%;
+    background:  #ba6b57 ;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.hair-right {
+    position: absolute;
+    top: -4%;
+    left: 38%;
+    width: 45%;
+    height: 20%;
+    background:  #5f6769;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.cig-butt {
+    position: absolute;
+    background: #eb8242;
+    width: 2.5%;
+    height: 5.5%;
+    left: 43.5%;
+    top: 75%;
+    border-radius: 10%;
+    z-index: 5;
+}
+
+.cig-body {
+    position: absolute;
+    background: white;
+    width: 2.5%;
+    height: 12.5%;
+    left: 43.5%;
+    top: 79%;
+    border-radius: 10%;
+    z-index: 4;
+}
+
+.cig-end {
+    position: absolute;
+    background: red;
+    width: 2.5%;
+    height: 1.5%;
+    left: 43.5%;
+    top: 90%;
+    border-radius: 10%;
+    z-index: 5;
+}
